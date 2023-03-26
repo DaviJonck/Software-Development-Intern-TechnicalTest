@@ -27,6 +27,12 @@ Este programa só é capaz de analisar páginas HTML válidas e bem formadas. Se
 <sub>Autor: Davi Faustino Jonck </sub>
 <sub>Última atualização: 03/26/2023</sub>
 
+
+
+=======================================================================================================================================================================
+
+
+
 # HtmlAnalyzer TechnicalTest-Axur ENG
 
 This program parses an HTML page and finds the deepest piece of text in the tag structure. It uses a URL class and related classes for handling Java input streams to open a connection to the web page, read the HTML content, and identify the deepest piece of text.
