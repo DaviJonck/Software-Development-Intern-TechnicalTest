@@ -5,7 +5,7 @@ Este programa analisa uma página HTML e encontra o trecho de texto mais profund
 ###### Como usar
 Este programa deve ser executado através da linha de comando, com um argumento que corresponde à URL da página HTML a ser analisada. Por exemplo:
 
-ˋjava HtmlAnalyzer.java http://www.example.comˋ
+ˋjava HtmlAnalyzer.java http://www.example.com `
 
 ###### Como funciona
 O programa começa verificando se um argumento foi passado na linha de comando. Caso contrário, ele exibe uma mensagem de erro e encerra. Em seguida, ele cria uma instância da classe URL com a URL fornecida como argumento.
