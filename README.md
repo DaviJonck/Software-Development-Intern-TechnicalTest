@@ -2,14 +2,14 @@
 
 Este programa analisa uma página HTML e encontra o trecho de texto mais profundo da estrutura de tags. Ele utiliza a classe URL e as classes relacionadas à manipulação de streams de entrada do Java para abrir uma conexão com a página web, ler o conteúdo HTML e identificar o trecho de texto mais profundo.
 
-**  Como usar  **
+## Como usar 
 Este programa deve ser executado através da linha de comando, com um argumento que corresponde à URL da página HTML a ser analisada. Por exemplo:
 
 ~~~java
 java HtmlAnalyzer.java http://www.example.com 
 ~~~
 
-** Como funciona **
+## Como funciona 
 O programa começa verificando se um argumento foi passado na linha de comando. Caso contrário, ele exibe uma mensagem de erro e encerra. Em seguida, ele cria uma instância da classe URL com a URL fornecida como argumento.
 
 O programa então abre uma conexão com a página web e cria um BufferedReader para ler o conteúdo HTML da página. Ele usa uma Deque para manter o controle da estrutura de tags HTML conforme elas são lidas do stream de entrada.
@@ -20,7 +20,7 @@ Se a linha não começar com uma tag HTML, o programa assume que é um trecho de
 
 Após ler todo o conteúdo HTML da página, o programa exibe o trecho de texto mais profundo encontrado. Se nenhum trecho de texto for encontrado, o programa exibe uma mensagem de erro.
 
-** Limitações **
+## Limitações 
 Este programa só é capaz de analisar páginas HTML válidas e bem formadas. Se a página contiver erros de sintaxe ou tags mal formadas, o programa pode exibir mensagens de erro ou não funcionar corretamente. Além disso, o programa só é capaz de analisar o conteúdo HTML da página e não pode processar JavaScript ou outros tipos de conteúdo dinâmico.
 
 <sub>Autor: Davi Faustino Jonck
