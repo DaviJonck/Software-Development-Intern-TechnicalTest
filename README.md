@@ -1,4 +1,4 @@
-# HtmlAnalyzer TechnicalTest-Axur PT-BR
+# HtmlAnalyzer TechnicalTest Software Developer Intern PT-BR
 
 Este programa analisa uma página HTML e encontra o trecho de texto mais profundo da estrutura de tags. Ele utiliza a classe URL e as classes relacionadas à manipulação de streams de entrada do Java para abrir uma conexão com a página web, ler o conteúdo HTML e identificar o trecho de texto mais profundo.
 
@@ -33,7 +33,7 @@ Este programa só é capaz de analisar páginas HTML válidas e bem formadas. Se
 
 
 
-# HtmlAnalyzer TechnicalTest-Axur ENG
+# HtmlAnalyzer TechnicalTest Software Developer Intern ENG
 
 This program parses an HTML page and finds the deepest piece of text in the tag structure. It uses a URL class and related classes for handling Java input streams to open a connection to the web page, read the HTML content, and identify the deepest piece of text.
 
